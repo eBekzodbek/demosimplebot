@@ -1,0 +1,22 @@
+{
+  "name": "demosimplebot",
+  "version": "1.0.0",
+  "description": "my bot ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Bekzodbek",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
